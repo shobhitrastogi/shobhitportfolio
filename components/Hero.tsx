@@ -67,7 +67,7 @@ const Hero = () => {
               position="right"
             />
           </a>
-          <a href="https://drive.google.com/file/d/1JJdyphP8LcusJHe8T6fsQSQ8dovQtp8z/view?usp=drive_link"  target="_blank">
+          <a href="/ShobhitRastogi.pdf" target="_blank">
             <MagicButton
               title="Resume"
               icon={<FaLocationArrow />}

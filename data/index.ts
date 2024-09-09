@@ -1,8 +1,8 @@
 export const navItems = [
   { name: "Home", link: "/" },
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Skills", link: "#skills" },
+  // { name: "Projects", link: "#projects" },
+  // { name: "Skills", link: "#skills" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -105,19 +105,34 @@ export const projects = [
     id: 4,
     title: "Responsive Fetching Api Youtube Clone",
     des: " Designed a responsive and intuitive user interface using React and CSS, ensuring asmooth user experience across different devices.",
-    img: "/youtube.svg",
+    img: "/apple.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/js.svg", "/gsap.svg"],
+    link: "https://rastogi-apple.netlify.app",
+  },
+  {
+    id: 5,
+    title: "Mern Stack iNotebook Application",
+    des: " Users can create, update, and delete their notes . Implemented a rich text editor  for Notebook content creation.",
+    img: "/inotebook.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/js.svg", "/gsap.svg"],
+    link: "https://inotebook-rastogi.netlify.app",
+  },
+  {
+    id: 6,
+    title: "Mern Stack Blog Application",
+    des: " Users can create, update, and delete their blog posts. Implemented a rich text editor  for blog content creation.",
+    img: "/blogs.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/js.svg", "/gsap.svg"],
     link: "https://youtuve.netlify.app/",
   },
 ];
-
 
 export const companies = [
   {
     id: 1,
     name: "HTML",
     img: "/html.webp",
-    nameImg: "HTML"
+    nameImg: "HTML",
   },
   {
     id: 2,
@@ -143,13 +158,13 @@ export const companies = [
     img: "/tail.svg",
     nameImg: "Tailwind CSS",
   },
-   {
+  {
     id: 6,
     name: "MongoDB",
     img: "/mongodb.svg",
     nameImg: "MongoDB",
   },
-   {
+  {
     id: 7,
     name: "Node.js",
     img: "/nodejs.svg",
@@ -160,6 +175,24 @@ export const companies = [
     name: "Typescript",
     img: "/ts.svg",
     nameImg: "TypeScript",
+  },
+  {
+    id: 9,
+    name: "Jest",
+    img: "/Jest.svg",
+    nameImg: "Jest",
+  },
+  {
+    id: 10,
+    name: "Github",
+    img: "/githubs.svg",
+    nameImg: "Github",
+  },
+  {
+    id: 11,
+    name: "Docker",
+    img: "/docker.svg",
+    nameImg: "Docker",
   },
 ];
 
@@ -175,14 +208,14 @@ export const workExperience = [
     id: 2,
     title: "Full Stack-Mern Stack Developer",
     desc: "Designed and developed Web app using MongoDB,Express.js,React.js,Node.js",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Backend Engineer",
     desc: "Assisted in the development of a web-based platform using Node.js,Express.js and Database using MongoDB, enhancing interactivity.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
@@ -198,12 +231,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url:'https://github.com/shobhitrastogi'
+    url: "https://github.com/shobhitrastogi",
   },
-  
+
   {
     id: 2,
     img: "/link.svg",
-    url:'https://www.linkedin.com/in/shobhit-rastogi-/'
+    url: "https://www.linkedin.com/in/shobhit-rastogi-/",
   },
 ];
